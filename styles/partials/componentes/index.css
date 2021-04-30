@@ -1,0 +1,30 @@
+body {
+  color: red;
+}
+
+.header__container {
+  background-color: #6d0405;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.header_logo {
+  transition: all 3s ease-in-out;
+}
+.header_logohover {
+  color: #206a5d;
+}
+.header__nav {
+  display: flex;
+  gap: 4rem;
+}
+.header__nav--link {
+  transition: all 3s ease-in-out;
+}
+.header__nav--linkhover {
+  color: #111;
+}

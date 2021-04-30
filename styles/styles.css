@@ -1,0 +1,80 @@
+body {
+  color: red;
+}
+
+.header__container {
+  background-color: #6d04AA;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.header_logo {
+  transition: all 3s ease-in-out;
+}
+.header_logohover {
+  color: #206a5d;
+}
+.header__nav {
+  display: flex;
+  gap: 4rem;
+}
+.header__nav--link {
+  transition: all 3s ease-in-out;
+}
+.header__nav--linkhover {
+  color: #111;
+}
+
+*, *::before, *, after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh background-color #9d0208;
+  color: #eee;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 3.2;
+}
+
+h2 {
+  font-size: 3.82;
+}
+
+h3 {
+  font-size: 3.5;
+}
+
+h4 {
+  font-size: 3.2;
+}
+
+h5 {
+  font-size: 3;
+}
+
+h6, p {
+  font-size: 2.5;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
