@@ -1,2 +1,28 @@
+.footer__container {
+  background-color: #6d0405;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 
-/*# sourceMappingURL=footer.css.map */
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 20%;
+}
+.footer__info {
+  color: #206a5d;
+}
+.footer__info--title {
+  margin-bottom: 2rem;
+}
+.footer__info--text {
+  text-align: justify;
+}
+.footer__links {
+  flex-basis: 5%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}

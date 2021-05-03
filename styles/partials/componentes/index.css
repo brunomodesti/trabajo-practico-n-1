@@ -1,7 +1,3 @@
-body {
-  color: red;
-}
-
 .header__container {
   background-color: #6d0405;
 }
@@ -12,11 +8,11 @@ body {
   justify-content: space-between;
   padding: 2rem 0;
 }
-.header_logo {
+.header__logo {
   transition: all 3s ease-in-out;
 }
-.header_logohover {
-  color: #206a5d;
+.header__logo:hover {
+  color: #e9ca18;
 }
 .header__nav {
   display: flex;
@@ -25,6 +21,35 @@ body {
 .header__nav--link {
   transition: all 3s ease-in-out;
 }
-.header__nav--linkhover {
-  color: #111;
+.header__nav--link:hover {
+  color: #e9ca18;
+}
+
+.footer__container {
+  background-color: #6d0405;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 20%;
+}
+.footer__info {
+  color: #206a5d;
+}
+.footer__info--title {
+  margin-bottom: 2rem;
+}
+.footer__info--text {
+  text-align: justify;
+}
+.footer__links {
+  flex-basis: 5%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
 }

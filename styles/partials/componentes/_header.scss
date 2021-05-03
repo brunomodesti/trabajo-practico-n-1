@@ -1,29 +1,28 @@
 @use'../variables/variables' as *;
 
-.header__container{
+.header__container {
     background-color:$backgroundcolor2;
 }
+
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 2rem 0;
-
-&_logo{
-    transition:all 3s ease-in-out;
-    &hover{
-        color:$primarycolor;
-    }
-}
-&__nav{
-    display: flex;
-    gap: 4rem;
-    &--link{
+    &__logo{
         transition:all 3s ease-in-out;
-
-        &hover{
-            color: $black;
+        &:hover{
+            color: $accentcolor;
         }
     }
-}
+    &__nav{
+        display: flex;
+        gap: 4rem;
+        &--link{
+            transition:all 3s ease-in-out;
+            &:hover{
+                color: $accentcolor;
+            }
+        }
+    }
 }

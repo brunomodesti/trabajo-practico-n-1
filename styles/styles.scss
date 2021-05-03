@@ -1,7 +1,9 @@
-@use 'partials/componentes/index.scss' as c;
+@use 'partials/componentes/index' ;
 @use 'partials/variables/variables' as *;
 
-*,*::before, *,,after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,8 +12,8 @@ html{
     font-size: 62.5%;
 }
 body {
-    min-height: 100vh
-    background-color $backgroundcolor;
+    min-height: 100vh;
+    background-color: $primarycolor;
     color: $white;
 }
 
