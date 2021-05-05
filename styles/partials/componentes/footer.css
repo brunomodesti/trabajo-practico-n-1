@@ -1,6 +1,5 @@
 .footer__container {
   background-color: #6d0405;
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
@@ -9,10 +8,11 @@
   display: flex;
   align-items: center;
   padding: 2rem 0;
-  gap: 20%;
+  justify-content: space-between;
+  width: 100%;
 }
 .footer__info {
-  color: #206a5d;
+  width: 70%;
 }
 .footer__info--title {
   margin-bottom: 2rem;
@@ -21,7 +21,7 @@
   text-align: justify;
 }
 .footer__links {
-  flex-basis: 5%;
+  width: 20%;
   display: flex;
   justify-content: space-between;
   gap: 5%;

@@ -1,3 +1,52 @@
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: calc(100vh - 8.267rem);
+  background-image: url("../../../assets/img/hero.skatepark.jpg");
+  background-position: right;
+  color: #111;
+}
+.hero__content {
+  display: flex;
+  min-width: 40%;
+  flex-direction: column;
+  margin-left: 20;
+}
+.hero__title {
+  font-size: 7rem;
+}
+.testimoniales__container {
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5rem;
+}
+
+.testimoniales {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10rem;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+}
+.testimoniales__subtitulo {
+  font-size: 5rem;
+}
+.testimoniales .testimonio {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+}
+.testimoniales .testimonio__mensaje {
+  text-align: justify;
+  padding: 0 4rem;
+}
+
 .header__container {
   background-color: #6d0405;
 }
@@ -27,7 +76,6 @@
 
 .footer__container {
   background-color: #6d0405;
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
@@ -36,10 +84,11 @@
   display: flex;
   align-items: center;
   padding: 2rem 0;
-  gap: 20%;
+  justify-content: space-between;
+  width: 100%;
 }
 .footer__info {
-  color: #206a5d;
+  width: 70%;
 }
 .footer__info--title {
   margin-bottom: 2rem;
@@ -48,7 +97,7 @@
   text-align: justify;
 }
 .footer__links {
-  flex-basis: 5%;
+  width: 20%;
   display: flex;
   justify-content: space-between;
   gap: 5%;
