@@ -41,10 +41,36 @@
   flex-direction: column;
   gap: 3rem;
   text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.testimoniales .testimonio:hover {
+  transform: scale(1.05);
 }
 .testimoniales .testimonio__mensaje {
   text-align: justify;
   padding: 0 4rem;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 7rem;
+  right: 5rem;
+  width: 6rem;
+  height: 6rem;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9ca18;
+  border-radius: 50%;
+}
+.go-top p {
+  color: #eee;
+  font-size: 3rem;
+}
+.go-top:hover {
+  background-color: #bfdcae;
+  cursor: pointer;
 }
 
 .header__container {

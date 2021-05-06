@@ -54,6 +54,10 @@
         flex-direction: column;
         gap: 3rem;
         text-align: center;
+        transition: all .3s ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+        }
 
         &__titulo {
 
@@ -66,5 +70,29 @@
             padding: 0 4rem;
             
         }
+    }
+}
+
+// up
+.go-top {
+    position: fixed;
+    bottom: 7rem;
+    right: 5rem;
+    width: 6rem;
+    height: 6rem;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $accentcolor;
+    border-radius: 50%;
+
+    p{
+        color: $white;
+        font-size: 3rem;
+    }
+    &:hover {
+        background-color: $secondarycolor;
+        cursor: pointer;
     }
 }
